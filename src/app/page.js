@@ -1,18 +1,12 @@
 import Link from "next/link";
 
+
 export default function Home() {
   return (
-    <div> 
-      <center>
-      <h1>Welcome</h1>
-      <br/>
-      <Link href="about">About</Link>|
-      <Link href="home">index</Link>|
-      <Link href="service">service</Link>
-      </center>
+    
+    <div>
+      <div className="min-h-screen bg-gradient-to-r from-blue-400 to-purple-600 flex flex-col items-center justify-center">
+      </div>
     </div>
   );
 }
-
-//className="flex items-center justify-center min-h-screen"
-//className="text-center"

@@ -3,9 +3,10 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    
-    <div>
-      <div className="min-h-screen bg-gradient-to-r from-blue-400 to-purple-600 flex flex-col items-center justify-center">
+
+    <div className="max-w-7xl mx-auto px-4 py-4">
+      <div className="flex justify-between items-center">
+        <h1 className="text-xl font-bold">Welcome</h1>
       </div>
     </div>
   );

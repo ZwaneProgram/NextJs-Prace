@@ -20,19 +20,19 @@ const Carousel = () => {
       <div className="relative h-56 overflow-hidden rounded-lg md:h-96">
         {/* Carousel items */}
         <div className="duration-700 ease-in-out opacity-0" data-carousel-item style={{ opacity: currentSlide === 0 ? 1 : 0 }}>
-          <img src="https://cdn.discordapp.com/attachments/1022845891394162799/1253569669453971527/Screenshot_32.png?ex=6676553b&is=667503bb&hm=ace1366e7302910842fc563c8b9076b6dd514e91f8433daa4ba708ed45764e13" className="absolute block w-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" alt="Slide 1" />
+          <img src="rhombus_web_design.png" className="absolute block w-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" alt="Slide 1" />
         </div>
         <div className="duration-700 ease-in-out opacity-0" data-carousel-item style={{ opacity: currentSlide === 1 ? 1 : 0 }}>
-          <img src="https://cdn.discordapp.com/attachments/1022845891394162799/1253571313507766312/Screenshot_31.png?ex=667656c3&is=66750543&hm=664f0267dc9170e71af81889b361b60dae40e17103ede39e3c35977fbc0fa585&" className="absolute block w-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" alt="Slide 2" />
+          <img src="imageBIG.jfif" className="absolute block w-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" alt="Slide 2" />
         </div>
         <div className="duration-700 ease-in-out opacity-0" data-carousel-item style={{ opacity: currentSlide === 2 ? 1 : 0 }}>
-          <img src="https://cdn.discordapp.com/attachments/1022845891394162799/1253569669453971527/Screenshot_32.png?ex=6676553b&is=667503bb&hm=ace1366e7302910842fc563c8b9076b6dd514e91f8433daa4ba708ed45764e13" className="absolute block w-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" alt="Slide 3" />
+          <img src="imageBIG.jfif" className="absolute block w-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" alt="Slide 3" />
         </div>
         <div className="duration-700 ease-in-out opacity-0" data-carousel-item style={{ opacity: currentSlide === 3 ? 1 : 0 }}>
-          <img src="https://cdn.discordapp.com/attachments/1022845891394162799/1253569669453971527/Screenshot_32.png?ex=6676553b&is=667503bb&hm=ace1366e7302910842fc563c8b9076b6dd514e91f8433daa4ba708ed45764e13" className="absolute block w-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" alt="Slide 4" />
+          <img src="rhombus_web_design.png" className="absolute block w-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" alt="Slide 4" />
         </div>
         <div className="duration-700 ease-in-out opacity-0" data-carousel-item style={{ opacity: currentSlide === 4 ? 1 : 0 }}>
-          <img src="https://cdn.discordapp.com/attachments/1022845891394162799/1253569669453971527/Screenshot_32.png?ex=6676553b&is=667503bb&hm=ace1366e7302910842fc563c8b9076b6dd514e91f8433daa4ba708ed45764e13" className="absolute block w-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" alt="Slide 5" />
+          <img src="rhombus_web_design.png" className="absolute block w-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" alt="Slide 5" />
         </div>
       </div>
 
